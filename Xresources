@@ -1,0 +1,110 @@
+!
+! .Xresources
+!
+
+!!! XClock
+XClock.Clock.hourColor: darkslateblue
+XClock.Clock.minuteColor: darkslateblue
+XClock.Clock.secondColor: darkslateblue
+XClock.Clock.majorColor: darkslateblue
+XClock.Clock.minorColor: darkslateblue
+XClock.Clock.background: black
+
+!!! URXVT
+URxvt.scrollBar:	false
+URxvt.font:	        xft:Terminus:size=9
+!URxvt.font:	        xft:Dina:size=11
+!URxvt.font:         xft:DejaVu Sans Mono:size=9
+URxvt*termName:		xterm
+
+!!! Grey URxvt
+URxvt.background:       #101010
+URxvt.foreground:       #A6A6A6
+
+!!! Solarized URxvt
+!URxvt.background:       #002B36
+!URxvt.foreground:       #839496
+
+URxvt.cursorColor:      #0A9DFF
+URxvt.highlightColor:   #403D3D
+
+URxvt*.transparent:     false
+URxvt*.shading:         20
+ 
+!URxvt.color0:           #343639
+!URxvt.color1:           #404040
+!URxvt.color2:           #2F468E
+!URxvt.color3:           #7791E0
+!URxvt.color4:           #424242
+!URxvt.color5:           #828A8C
+!URxvt.color6:           #6B8BA3
+!URxvt.color7:           #8EBDDE
+!URxvt.color8:           #1C4582
+!URxvt.color9:           #5365A6
+!URxvt.color10:          #74637D
+!URxvt.color11:          #927D9E
+!URxvt.color12:          #556C85
+!URxvt.color13:          #6E98B8
+!URxvt.color14:          #B2B2B2
+!URxvt.color15:          #BDBDBD
+
+!black
+*color0: #363636
+*color8: #828282
+!red
+*color1: #d96468
+*color9: #d98f93
+!green
+*color2: #a2d964
+*color10: #b8d98f
+!yellow
+*color3: #d9c964
+*color11: #d9cf8f
+!blue
+*color4: #0390c4
+*color12: #3d84cf
+!magenta
+*color5: #9a64d9
+*color13: #b08fd9
+!cyan
+*color6: #64d9d5
+*color14: #8fd9d5
+!white
+*color7: #989898
+*color15: #C5C5C5
+
+! green
+!*color2:  #71a83a
+! bright green
+!*color10: #b1d78b
+
+! yellow
+!*color3:  #a8713a
+! bright yellow
+!*color11: #d7b18b
+
+! blue
+!*color4:  #3a71a8
+! bright blue
+!*color12: #8bb1d7
+
+! magenta
+!*color5:  #713aa8
+! bright magenta
+!*color13: #b18bd7
+
+! cyan
+!*color6:  #3aa871
+! bright cyan
+!*color14: #8bd7b1
+
+! light gray
+!*color7:  #a6a6a6
+! white
+!*color15: #e6e6e6
+
+!!! XTERM !!!
+XTerm*background:   #101010
+XTerm*foreground:   #bbbbbb
+!XTerm*faceName  :   Dina:size=9
+XTerm*faceName   :   Tewi:size=11
