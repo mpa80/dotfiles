@@ -35,6 +35,8 @@ set noerrorbells
 set nobackup
 set noswapfile
 
+let mapleader = ","
+
 " Highlight column 79
 highlight ColorColumn ctermbg=darkgrey
 set colorcolumn=79
@@ -51,8 +53,11 @@ au BufRead /tmp/mutt-* set tw=72
 nnoremap <silent><C-j> :set paste<CR>m`o<Esc>``:set nopaste<CR>
 nnoremap <silent><C-k> :set paste<CR>m`O<Esc>``:set nopaste<CR>
 
+" Open help in a vertical split
+nnoremap <F1> :vert bo help
+
 " Toggle syntax highlighting
-:map <silent><F1> :if exists("g:syntax_on") <Bar>
+:map <silent><F3> :if exists("g:syntax_on") <Bar>
     \ syntax off <Bar>
     \ else <Bar>
     \ syntax enable <Bar>
@@ -60,3 +65,6 @@ nnoremap <silent><C-k> :set paste<CR>m`O<Esc>``:set nopaste<CR>
 
 " Toggle relative line numbers
 nnoremap <silent><F2> :set relativenumber!<CR>
+
+" VimWiki
+let g:vimwiki_list = [{'path': '~/data/docs/vimwiki/main/', 'path_html': '~/data/docs/vimwiki/main_html/'}]
