@@ -54,7 +54,7 @@ nnoremap <silent><C-j> :set paste<CR>m`o<Esc>``:set nopaste<CR>
 nnoremap <silent><C-k> :set paste<CR>m`O<Esc>``:set nopaste<CR>
 
 " Open help in a vertical split
-nnoremap <F1> :vert bo help
+nnoremap <F1> :vert bo help 
 
 " Toggle syntax highlighting
 :map <silent><F3> :if exists("g:syntax_on") <Bar>
