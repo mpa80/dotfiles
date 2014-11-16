@@ -58,6 +58,12 @@ nnoremap <silent><C-k> :set paste<CR>m`O<Esc>``:set nopaste<CR> " ...and above
 nnoremap <Leader>h :vert bo help<CR>                            " Open help in a vertical split
 nnoremap <silent><F2> :set relativenumber!<CR>                  " Toggle relative line numbers
 
+" No more arrow keys :)
+map <up> <nop>
+map <down> <nop>
+map <left> <nop>
+map <right> <nop>
+
 " Copy to and paste from the system clipboard with 'Space y' and 'Space d'
 vmap <Leader>y "+y
 vmap <Leader>d "+d
