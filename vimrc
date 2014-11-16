@@ -19,6 +19,8 @@ set autoindent
 set copyindent
 set number
 set showmatch
+set splitright
+set splitbelow
 
 set hlsearch
 set incsearch
