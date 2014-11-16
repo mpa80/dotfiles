@@ -22,6 +22,8 @@ set showmatch
 set splitright
 set splitbelow
 
+set wildmenu
+
 set hlsearch
 set incsearch
 set ignorecase
