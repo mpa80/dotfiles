@@ -18,7 +18,6 @@ set backspace=indent,eol,start
 set autoindent
 set copyindent
 set number
-"set norelativenumber
 set showmatch
 
 set hlsearch
