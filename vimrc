@@ -81,3 +81,12 @@ vmap <Leader>P "+P
 
 " VimWiki
 let g:vimwiki_list = [{'path': '~/data/docs/vimwiki/main/', 'path_html': '~/data/docs/vimwiki/main_html/'}]
+
+" Unite.vim file search
+nnoremap <C-p> :Unite file_rec/async<CR>
+
+" Unite.vim content search
+nnoremap <Leader>/ :Unite grep:.<CR>
+
+"Unite.vim buffer switch
+nnoremap <Leader>b :Unite -quick-match buffer<CR>
