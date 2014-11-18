@@ -64,7 +64,7 @@ map <down> <nop>
 map <left> <nop>
 map <right> <nop>
 
-" Copy to and paste from the system clipboard with 'Space y' and 'Space d'
+" Copy to and paste from the system clipboard
 vmap <Leader>y "+y
 vmap <Leader>d "+d
 nmap <Leader>p "+p
@@ -82,11 +82,11 @@ vmap <Leader>P "+P
 " VimWiki
 let g:vimwiki_list = [{'path': '~/data/docs/vimwiki/main/', 'path_html': '~/data/docs/vimwiki/main_html/'}]
 
-" Unite.vim file search
+" Unite file search
 nnoremap <C-p> :Unite file_rec/async<CR>
 
-" Unite.vim content search
+" Unite content search
 nnoremap <Leader>/ :Unite grep:.<CR>
 
-"Unite.vim buffer switch
+" Unite buffer switch
 nnoremap <Leader>b :Unite -quick-match buffer<CR>
