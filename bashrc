@@ -7,6 +7,7 @@
 #
 export PS1='\u@\h:\w\$ '
 export EDITOR=vim
+export RANGER_LOAD_DEFAULT_RC=FALSE
 
 complete -cf sudo
 complete -cf man
