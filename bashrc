@@ -18,7 +18,6 @@ alias ga='git add'
 alias gc='git commit'
 alias gs='git status'
 alias gp='git push'
-alias iptlist='/usr/bin/sudo /usr/sbin/iptables --line-numbers -n -L'
 alias ls='ls -pa --color=auto'
 alias ll='ls -hal'
 alias mc='mc -b'
@@ -42,7 +41,8 @@ if [ -f /etc/debian_version ]; then
     export PATH='/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/mpa/bin'
 
     alias apt-get='/usr/bin/sudo /usr/bin/apt-get'
-    alias aptitude='/usr/bin/sudo /usr/bin/aptitude';
+    alias aptitude='/usr/bin/sudo /usr/bin/aptitude'
+    alias iptlist='/usr/bin/sudo /sbin/iptables --line-numbers -n -L';
 fi
 
 #
@@ -55,7 +55,8 @@ if [ -f /etc/slackware-version ]; then
     alias installpkg='/usr/bin/sudo /sbin/installpkg'
     alias upgradepkg='/usr/bin/sudo upgradepkg'
     alias sbopkg='/usr/bin/sudo /usr/sbin/sbopkg'
-    alias qpkg='ls /var/log/packages | grep -i';
+    alias qpkg='ls /var/log/packages | grep -i'
+    alias iptlist='/usr/bin/sudo /usr/sbin/iptables --line-numbers -n -L';
 fi
 
 #
