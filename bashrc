@@ -57,3 +57,11 @@ if [ -f /etc/slackware-version ]; then
     alias sbopkg='/usr/bin/sudo /usr/sbin/sbopkg'
     alias qpkg='ls /var/log/packages | grep -i';
 fi
+
+#
+# losthill
+#
+if [ "$(hostname)" = 'losthill' ]; then
+    alias vim=/usr/bin/vim;
+fi
+
