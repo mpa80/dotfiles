@@ -13,11 +13,6 @@ complete -cf sudo
 complete -cf man
 
 alias c='clear'
-alias g=git
-alias ga='git add'
-alias gc='git commit'
-alias gs='git status'
-alias gp='git push'
 alias ls='ls -pa --color=auto'
 alias ll='ls -hal'
 alias mc='mc -b'
