@@ -14,6 +14,7 @@ XClock.Clock.background: black
 URxvt.scrollBar:	false
 !URxvt.font:	        xft:Terminus:size=9
 URxvt.font:	        xft:Dina:size=11
+URxvt.boldFont:
 !URxvt.font:         xft:DejaVu Sans Mono:size=9
 URxvt*termName:		xterm
 !URxvt.font:         -misc-8x16 system font-*-*-*-*-*-*-*-*-*-*-*-*
