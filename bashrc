@@ -61,3 +61,9 @@ if [ "$(hostname)" = 'losthill' ]; then
     alias vim=/usr/bin/vim;
 fi
 
+#
+# texlive
+#
+if [ -d ~/bin/texlive ]; then
+    export PATH=~/bin/texlive/bin/x86_64-linux:$PATH;
+fi
