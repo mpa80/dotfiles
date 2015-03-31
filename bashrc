@@ -33,7 +33,7 @@ clrswp ()
 # Debian
 #
 if [ -f /etc/debian_version ]; then
-    export PATH='/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/mpa/bin'
+    export PATH='/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:~/bin'
 
     alias apt-get='/usr/bin/sudo /usr/bin/apt-get'
     alias aptitude='/usr/bin/sudo /usr/bin/aptitude'
@@ -44,7 +44,7 @@ fi
 # Slackware
 #
 if [ -f /etc/slackware-version ]; then
-    export PATH='/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/lib64/java/jre/bin:/opt/texlive/bin/x86_64-linux:/home/mpa/bin'
+    export PATH='/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/lib64/java/jre/bin:/opt/texlive/bin/x86_64-linux:~/bin'
 
     alias slackpkg='/usr/bin/sudo /usr/sbin/slackpkg'
     alias installpkg='/usr/bin/sudo /sbin/installpkg'
@@ -58,7 +58,7 @@ fi
 # Arch
 #
 if [ -f /etc/arch-release ]; then
-    export PATH='/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl'
+    export PATH='/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/bin'
 fi
 
 #
