@@ -28,7 +28,7 @@ URxvt.foreground:       #A6A6A6
 !URxvt.background:       #002B36
 !URxvt.foreground:       #839496
 
-URxvt.cursorColor:      #0A9DFF
+URxvt.cursorColor:      #285577
 URxvt.highlightColor:   #403D3D
 
 URxvt*.transparent:     false
