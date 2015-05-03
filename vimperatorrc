@@ -1,0 +1,14 @@
+" .vimperatorrc
+
+" Search
+set incsearch
+set hlsearch
+set smartcase
+
+" Hints
+set hintchars=abcdefghijklmnopqrstuvwxyz
+highlight Hint font-family: dina; font-weight: bold; border: 2px solid black; color: black; background-color: #fffcc8
+
+" Faster scrolling 
+nnoremap j 3j
+nnoremap k 3k
