@@ -1,5 +1,8 @@
 " .vimperatorrc
 
+" Titlebar
+set titlestring="Firefox"
+
 " Search
 set incsearch
 set hlsearch
