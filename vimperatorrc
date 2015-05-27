@@ -8,6 +8,10 @@ set incsearch
 set hlsearch
 set smartcase
 
+" Commandline and Statusline
+highlight CmdLine color: #999; background: #111; font-family: terminus; font-size: 11px; padding: 0px; vertical-align: middle; border: none;
+highlight StatusLine color: #999; background: #111; font-family: terminus; font-size: 11px; margin-top: 0px;
+
 " Hints
 set hintchars=qwertuiopasdfghjkl
 highlight Hint font-family: terminus; font-weight: bold; border: 1px solid black; color: black; background-color: #fffcc8
