@@ -44,7 +44,7 @@ fi
 # Slackware
 #
 if [ -f /etc/slackware-version ]; then
-    export PATH='/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/lib64/java/jre/bin:/opt/texlive/bin/x86_64-linux:~/bin'
+    export PATH='/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/lib64/java/jre/bin:/opt/texlive/bin/x86_64-linux:/usr/games:~/bin'
 
     alias slackpkg='/usr/bin/sudo /usr/sbin/slackpkg'
     alias installpkg='/usr/bin/sudo /sbin/installpkg'
