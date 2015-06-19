@@ -19,3 +19,8 @@ highlight Hint font-family: terminus; font-weight: bold; border: 1px solid black
 " Faster scrolling 
 nnoremap j 3j
 nnoremap k 3k
+
+" passAllKeys
+autocmd LocationChange .*                                       js modes.passAllKeys = false
+autocmd LocationChange panel-beta\\.bytemark\\.co\\.uk/vnc/*    js modes.passAllKeys = true
+
