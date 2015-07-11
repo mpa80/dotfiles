@@ -72,6 +72,14 @@ if [ -f /etc/arch-release ]; then
 fi
 
 #
+# RedHat / CentOS
+#
+if [ -f /etc/redhat-release ]; then
+    alias mount='/usr/sudo /bin/mount'
+    alias umount='/usr/sudo /bin/umount';
+fi
+
+#
 # texlive
 #
 if [ -d ~/bin/texlive ]; then
