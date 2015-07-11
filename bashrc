@@ -20,7 +20,6 @@ alias mc='mc -b'
 alias mkdir='mkdir -pv'
 alias mount='/usr/bin/sudo mount'
 alias umount='/usr/bin/sudo umount'
-alias vim='gvim -v'
 
 clrswp ()
 {
@@ -29,6 +28,16 @@ clrswp ()
     /usr/bin/sudo /sbin/swapon -a
     echo "Done!"
 }
+
+#
+# Is gvim installed?
+#
+if [ -f /usr/bin/gvim ]
+then
+    alias vim='/usr/bin/gvim -v'
+else
+    alias vim=/usr/bin/vim
+fi
 
 #
 # Debian
@@ -60,13 +69,6 @@ fi
 #
 if [ -f /etc/arch-release ]; then
     export PATH='/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/bin'
-fi
-
-#
-# losthill
-#
-if [ "$(hostname)" = 'losthill' ]; then
-    alias vim=/usr/bin/vim;
 fi
 
 #
