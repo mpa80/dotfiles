@@ -21,6 +21,7 @@ nnoremap j 3j
 nnoremap k 3k
 
 " passAllKeys
-autocmd LocationChange .*                                       js modes.passAllKeys = false
-autocmd LocationChange panel-beta\\.bytemark\\.co\\.uk/vnc/*    js modes.passAllKeys = true
+autocmd LocationChange .*                                               js modes.passAllKeys = false
+autocmd LocationChange panel-beta\\.bytemark\\.co\\.uk/vnc/*            js modes.passAllKeys = true
+autocmd LocationChange cloud\\.digitalocean\\.com/droplets/*            js modes.passAllKeys = true
 
