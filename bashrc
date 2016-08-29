@@ -45,8 +45,7 @@ fi
 if [ -f /etc/debian_version ]; then
     export PATH='/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:~/bin'
 
-    alias apt-get='/usr/bin/sudo /usr/bin/apt-get'
-    alias aptitude='/usr/bin/sudo /usr/bin/aptitude'
+    alias apt='/usr/bin/sudo /usr/bin/apt'
     alias iptlist='/usr/bin/sudo /sbin/iptables --line-numbers -n -L';
 fi
 
