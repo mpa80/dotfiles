@@ -43,7 +43,7 @@ fi
 # Debian
 #
 if [ -f /etc/debian_version ]; then
-    export PATH='/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:~/bin'
+    export PATH='/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:~/bin'
 
     alias apt='/usr/bin/sudo /usr/bin/apt'
     alias aptbp='/usr/bin/sudo /usr/bin/apt -t jessie-backports'
