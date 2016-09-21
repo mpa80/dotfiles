@@ -76,9 +76,9 @@ fi
 # RedHat / CentOS
 #
 if [ -f /etc/redhat-release ]; then
-    alias mount='/usr/sudo /bin/mount'
-    alias umount='/usr/sudo /bin/umount'
-    alias yum='/usr/sudo /usr/bin/yum';
+    alias mount='/usr/bin/sudo /bin/mount'
+    alias umount='/usr/bin/sudo /bin/umount'
+    alias yum='/usr/bin/sudo /usr/bin/yum';
 fi
 
 #
