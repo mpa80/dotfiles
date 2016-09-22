@@ -1,0 +1,11 @@
+# ------------------------------------------
+# zathurarc
+# ~/.config/zathura/zathurarc
+# ------------------------------------------
+
+# font
+set font "Pragmata Pro 10"
+
+# colours
+set statusbar-bg "#161616"
+set statusbar-fg "#B5B5B5"
