@@ -24,6 +24,7 @@ nnoremap k 3k
 autocmd LocationChange .*                                               js modes.passAllKeys = false
 autocmd LocationChange panel-beta\\.bytemark\\.co\\.uk/vnc/*            js modes.passAllKeys = true
 autocmd LocationChange cloud\\.digitalocean\\.com/droplets/*            js modes.passAllKeys = true
+autocmd LocationChange 10\\.1\\.1\\.3/*                                 js modes.passAllKeys = true
 
 " Smart completion workaround for Firefox 49
 js services.services.autoCompleteSearch.class_="@mozilla.org/autocomplete/search;1?name=unifiedcomplete"
