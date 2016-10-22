@@ -8,6 +8,7 @@
 export PS1='\u@\h:\w\$ '
 export EDITOR=vim
 export RANGER_LOAD_DEFAULT_RC=FALSE
+export STEAM_FRAME_FORCE_CLOSE=1
 
 complete -cf sudo
 complete -cf man
@@ -43,7 +44,7 @@ fi
 # Debian
 #
 if [ -f /etc/debian_version ]; then
-    export PATH='/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:~/bin'
+    export PATH='/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/home/mpa/bin'
 
     alias apt='/usr/bin/sudo /usr/bin/apt'
     alias aptbp='/usr/bin/sudo /usr/bin/apt -t jessie-backports'
