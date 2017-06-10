@@ -64,6 +64,7 @@ if [ -f /etc/slackware-version ]; then
     alias qpkg='ls /var/log/packages | grep -i'
     alias iptlist='/usr/bin/sudo /usr/sbin/iptables --line-numbers -n -L';
     alias ufw='/usr/bin/sudo /usr/sbin/ufw'
+    alias tarsnap='/usr/bin/sudo /usr/bin/tarsnap'
 fi
 
 #
