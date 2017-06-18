@@ -75,6 +75,15 @@ if [ -f /etc/arch-release ]; then
 fi
 
 #
+# Fedora
+#
+if [ -f /etc/fedora-release ]; then
+    alias mount='/usr/bin/sudo /bin/mount'
+    alias umount='/usr/bin/sudo /bin/umount'
+    alias dnf='/usr/bin/sudo /usr/bin/dnf';
+fi
+
+#
 # RedHat / CentOS
 #
 if [ -f /etc/redhat-release ]; then
