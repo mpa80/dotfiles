@@ -78,6 +78,8 @@ fi
 # Fedora
 #
 if [ -f /etc/fedora-release ]; then
+    export PATH='/usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:~/bin'
+
     alias mount='/usr/bin/sudo /bin/mount'
     alias umount='/usr/bin/sudo /bin/umount'
     alias dnf='/usr/bin/sudo /usr/bin/dnf';
