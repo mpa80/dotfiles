@@ -4,7 +4,7 @@
 # ------------------------------------------
 
 # font
-set font "Pragmata Pro 10"
+set font "Iosevka Term Light 12"
 
 # colours
 set statusbar-bg "#161616"
