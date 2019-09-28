@@ -17,7 +17,7 @@ mkdir -p $PLUGIN_DIR
 mkdir -p $COLORS_DIR
 mkdir -p $AUTOLOAD_DIR
 
-# wget https://raw.githubusercontent.com/mpa80/dotfiles/master/vimrc -O $HOME/.vimrc
+wget https://raw.githubusercontent.com/mpa80/dotfiles/master/vimrc -O $HOME/.vimrc
 
 for PLUGIN in ${PLUGINS[@]}; do
    DIRNAME="$(basename $PLUGIN)"
