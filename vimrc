@@ -23,6 +23,8 @@ set expandtab                      " tab to spaces
 set shiftwidth=2                   " number of spaces when shift indenting
 set softtabstop=2                  " number of spaces in tab when editing
 set tabstop=2                      " number of visual spaces per tab
+set listchars=space:·              " show spaces
+set list
 set omnifunc=syntaxcomplete#Complete
 set scrolloff=999
 set smartindent
