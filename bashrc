@@ -16,7 +16,6 @@ complete -cf man
 alias c='clear'
 alias ls='ls -pa --group-directories-first --time-style=+"%Y-%m-%d %H:%M" --color=auto -F'
 alias ll='ls -phla --group-directories-first --time-style=+"%Y-%m-%d %H:%M" --color=auto -F'
-alias ll='ls -hal'
 alias mc='mc -b'
 alias mkdir='mkdir -pv'
 alias mount='/usr/bin/sudo mount'
@@ -41,37 +40,19 @@ else
 fi
 
 #
-# Debian
-#
-if [ -f /etc/debian_version ]; then
-    export PATH='/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/home/mpa/bin'
-
-    alias apt='/usr/bin/sudo /usr/bin/apt'
-    alias aptbp='/usr/bin/sudo /usr/bin/apt -t jessie-backports'
-    alias iptlist='/usr/bin/sudo /sbin/iptables --line-numbers -n -L';
-fi
-
-#
 # Slackware
 #
 if [ -f /etc/slackware-version ]; then
-    export PATH='/home/mpa/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/lib64/java/jre/bin:/opt/texlive/bin/x86_64-linux:/usr/games'
+    export PATH='/home/mpa/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/lib64/java/jre/bin:/usr/games'
 
     alias slackpkg='/usr/bin/sudo /usr/sbin/slackpkg'
     alias installpkg='/usr/bin/sudo /sbin/installpkg'
     alias upgradepkg='/usr/bin/sudo upgradepkg'
     alias sbopkg='/usr/bin/sudo /usr/sbin/sbopkg'
-    alias qpkg='ls /var/log/packages | grep -i'
+    alias qpkg='ls /var/log/packages/ | grep -i'
     alias iptlist='/usr/bin/sudo /usr/sbin/iptables --line-numbers -n -L';
     alias ufw='/usr/bin/sudo /usr/sbin/ufw'
     alias tarsnap='/usr/bin/sudo /usr/bin/tarsnap'
-fi
-
-#
-# Arch
-#
-if [ -f /etc/arch-release ]; then
-    export PATH='/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/bin'
 fi
 
 #
@@ -93,6 +74,25 @@ if [ -f /etc/redhat-release ]; then
     alias umount='/usr/bin/sudo /bin/umount'
     alias yum='/usr/bin/sudo /usr/bin/yum';
 fi
+
+#
+# Debian
+#
+if [ -f /etc/debian_version ]; then
+    export PATH='/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/home/mpa/bin'
+
+    alias apt='/usr/bin/sudo /usr/bin/apt'
+    alias aptbp='/usr/bin/sudo /usr/bin/apt -t jessie-backports'
+    alias iptlist='/usr/bin/sudo /sbin/iptables --line-numbers -n -L';
+fi
+
+#
+# Arch
+#
+if [ -f /etc/arch-release ]; then
+    export PATH='/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/bin'
+fi
+
 
 #
 # texlive

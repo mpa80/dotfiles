@@ -4,7 +4,8 @@
 # ------------------------------------------
 
 # font
-set font "Iosevka Term Light 12"
+set font "Iosevka 24"
+#set font "Terminus 11"
 
 # colours
 set statusbar-bg "#161616"

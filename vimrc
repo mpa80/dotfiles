@@ -32,6 +32,7 @@ set showmatch                      " highlight matching [{()}]
 set incsearch                      " search as characters are entered
 set hlsearch                       " highlight matches
 set smartcase
+set nobackup
 let g:ctrlp_working_path_mode = 'r'
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*/node_modules/* 
 let g:ctrlp_show_hidden=1
