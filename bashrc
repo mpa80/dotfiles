@@ -1,10 +1,12 @@
-###############
-##  .bashrc  ##
-###############
+# ============================================================ 
+#   .bashrc
+# ============================================================ 
 
-#
-# Common
-#
+
+# ============================================================ 
+#   Common
+# ============================================================ 
+
 export PS1='\u@\h:\w\$ '
 export EDITOR=vim
 export RANGER_LOAD_DEFAULT_RC=FALSE
@@ -29,9 +31,11 @@ clrswp ()
     echo "Done!"
 }
 
-#
-# Is gvim installed?
-#
+
+# ============================================================ 
+#   Is gvim installed?
+# ============================================================ 
+
 if [ -f /usr/bin/gvim ]
 then
     alias vim='/usr/bin/gvim -v'
@@ -39,9 +43,11 @@ else
     alias vim=/usr/bin/vim
 fi
 
-#
-# Slackware
-#
+
+# ============================================================ 
+#   Slackware
+# ============================================================ 
+
 if [ -f /etc/slackware-version ]; then
     export PATH='/home/mpa/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/lib64/java/jre/bin:/usr/games'
 
@@ -55,9 +61,11 @@ if [ -f /etc/slackware-version ]; then
     alias tarsnap='/usr/bin/sudo /usr/bin/tarsnap'
 fi
 
-#
-# Fedora
-#
+
+# ============================================================ 
+#   Fedora
+# ============================================================ 
+
 if [ -f /etc/fedora-release ]; then
     export PATH='/usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:~/bin'
 
@@ -66,18 +74,23 @@ if [ -f /etc/fedora-release ]; then
     alias dnf='/usr/bin/sudo /usr/bin/dnf';
 fi
 
-#
-# RedHat / CentOS
-#
+
+# ============================================================ 
+#   RedHat / CentOS
+# ============================================================ 
+
 if [ -f /etc/redhat-release ]; then
     alias mount='/usr/bin/sudo /bin/mount'
     alias umount='/usr/bin/sudo /bin/umount'
-    alias yum='/usr/bin/sudo /usr/bin/yum';
+    alias yum='/usr/bin/sudo /usr/bin/yum'
+    alias dnf='/usr/bin/sudo /usr/bin/dnf';
 fi
 
-#
-# Debian
-#
+
+# ============================================================ 
+#   Debian
+# ============================================================ 
+
 if [ -f /etc/debian_version ]; then
     export PATH='/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/home/mpa/bin'
 
@@ -86,17 +99,11 @@ if [ -f /etc/debian_version ]; then
     alias iptlist='/usr/bin/sudo /sbin/iptables --line-numbers -n -L';
 fi
 
-#
-# Arch
-#
+
+# ============================================================ 
+#   Arch
+# ============================================================ 
+
 if [ -f /etc/arch-release ]; then
     export PATH='/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/bin'
-fi
-
-
-#
-# texlive
-#
-if [ -d ~/bin/texlive ]; then
-    export PATH=~/bin/texlive/bin/x86_64-linux:$PATH;
 fi
