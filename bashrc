@@ -47,8 +47,8 @@ fi
 # ============================================================ 
 #   git-completion
 # ============================================================ 
-if [ -f ~/.git-completion.bash ]
-  source ~/.git-completion.bash
+if [ -f ~/.git-completion.bash ]; then
+  source ~/.git-completion.bash;
 fi
 
 
@@ -64,9 +64,9 @@ if [ -f /etc/slackware-version ]; then
     alias upgradepkg='/usr/bin/sudo upgradepkg'
     alias sbopkg='/usr/bin/sudo /usr/sbin/sbopkg'
     alias qpkg='ls /var/log/packages/ | grep -i'
-    alias iptlist='/usr/bin/sudo /usr/sbin/iptables --line-numbers -n -L';
+    alias iptlist='/usr/bin/sudo /usr/sbin/iptables --line-numbers -n -L'
     alias ufw='/usr/bin/sudo /usr/sbin/ufw'
-    alias tarsnap='/usr/bin/sudo /usr/bin/tarsnap'
+    alias tarsnap='/usr/bin/sudo /usr/bin/tarsnap';
 fi
 
 
