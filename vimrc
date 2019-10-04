@@ -32,6 +32,7 @@ set showmatch                      " highlight matching [{()}]
 set incsearch                      " search as characters are entered
 set hlsearch                       " highlight matches
 set smartcase
+set linebreak
 set nobackup
 set noswapfile
 set noundofile
