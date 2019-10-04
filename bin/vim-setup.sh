@@ -11,6 +11,7 @@ PLUGINS=(
   "vim-airline/vim-airline-themes"
   "scrooloose/nerdtree"
   "dracula/vim"
+  "tomasiser/vim-code-dark"
 )
 
 mkdir -p $PLUGIN_DIR
