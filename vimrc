@@ -39,14 +39,10 @@ let g:ctrlp_working_path_mode = 'r'
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*/node_modules/* 
 let g:ctrlp_show_hidden=1
 set noswapfile
-autocmd FileType javascript JsPreTmpl html
-let g:jsx_ext_required = 0
 " autoquit if only NERDTree is open
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 " source .vimrc after saving it
-if has("autocmd")
-  autocmd bufwritepost .vimrc source $MYVIMRC
-endif
+autocmd bufwritepost .vimrc source $MYVIMRC
 " write as root
 cmap w!! w !sudo tee % >/dev/null
 
