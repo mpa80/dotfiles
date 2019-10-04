@@ -35,10 +35,11 @@ set incsearch                      " search as characters are entered
 set hlsearch                       " highlight matches
 set smartcase
 set nobackup
+set noswapfile
+set noundofile
 let g:ctrlp_working_path_mode = 'r'
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*/node_modules/* 
 let g:ctrlp_show_hidden=1
-set noswapfile
 " autoquit if only NERDTree is open
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 " source .vimrc after saving it
