@@ -15,7 +15,6 @@ export STEAM_FRAME_FORCE_CLOSE=1
 complete -cf sudo
 complete -cf man
 
-alias c='clear'
 alias ls='ls -pa --group-directories-first --time-style=+"%Y-%m-%d %H:%M" --color=auto -F'
 alias ll='ls -phla --group-directories-first --time-style=+"%Y-%m-%d %H:%M" --color=auto -F'
 alias mc='mc -b'
@@ -57,7 +56,7 @@ fi
 # ============================================================ 
 
 if [ -f /etc/slackware-version ]; then
-    export PATH='/home/mpa/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/lib64/java/jre/bin:/usr/games'
+    export PATH='~/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/lib64/java/jre/bin:/usr/games'
 
     alias slackpkg='/usr/bin/sudo /usr/sbin/slackpkg'
     alias installpkg='/usr/bin/sudo /sbin/installpkg'
@@ -75,7 +74,7 @@ fi
 # ============================================================ 
 
 if [ -f /etc/fedora-release ]; then
-    export PATH='/usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:~/bin'
+    export PATH='~/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin'
 
     alias mount='/usr/bin/sudo /bin/mount'
     alias umount='/usr/bin/sudo /bin/umount'
@@ -100,7 +99,7 @@ fi
 # ============================================================ 
 
 if [ -f /etc/debian_version ]; then
-    export PATH='/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/home/mpa/bin'
+    export PATH='~/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games'
 
     alias apt='/usr/bin/sudo /usr/bin/apt'
     alias aptbp='/usr/bin/sudo /usr/bin/apt -t jessie-backports'
@@ -113,5 +112,5 @@ fi
 # ============================================================ 
 
 if [ -f /etc/arch-release ]; then
-    export PATH='/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/bin'
+    export PATH='~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl'
 fi
