@@ -13,7 +13,7 @@ set runtimepath^=~/.vim/bundle/vim-airline/plugin/airline.vim
 "  Main settings
 "=======================================================================
 
-color codedark
+color dracula
 set noruler
 set noshowmode
 set hidden
@@ -51,7 +51,7 @@ cmap w!! w !sudo tee % >/dev/null
 "  Airline
 "=======================================================================
 
-let g:airline_theme = 'codedark'
+let g:airline_theme = 'dracula'
 let g:airline#extensions#branch#enabled = 1 
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#left_sep = ' '
