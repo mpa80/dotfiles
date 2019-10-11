@@ -56,7 +56,7 @@ fi
 # ============================================================ 
 
 if [ -f /etc/slackware-version ]; then
-    export PATH='~/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/lib64/java/jre/bin:/usr/games'
+    export PATH='/home/mpa/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/lib64/java/jre/bin:/usr/games'
 
     alias slackpkg='/usr/bin/sudo /usr/sbin/slackpkg'
     alias installpkg='/usr/bin/sudo /sbin/installpkg'
@@ -74,7 +74,7 @@ fi
 # ============================================================ 
 
 if [ -f /etc/fedora-release ]; then
-    export PATH='~/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin'
+    export PATH='/home/mpa/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin'
 
     alias mount='/usr/bin/sudo /bin/mount'
     alias umount='/usr/bin/sudo /bin/umount'
@@ -99,7 +99,7 @@ fi
 # ============================================================ 
 
 if [ -f /etc/debian_version ]; then
-    export PATH='~/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games'
+    export PATH='/home/mpa/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games'
 
     alias apt='/usr/bin/sudo /usr/bin/apt'
     alias aptbp='/usr/bin/sudo /usr/bin/apt -t jessie-backports'
@@ -112,5 +112,5 @@ fi
 # ============================================================ 
 
 if [ -f /etc/arch-release ]; then
-    export PATH='~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl'
+    export PATH='/home/mpa/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl'
 fi
