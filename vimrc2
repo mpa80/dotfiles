@@ -1,0 +1,25 @@
+"=======================================================================
+"  Main settings
+"=======================================================================
+
+"syntax on
+
+set expandtab                      " tab to spaces
+set shiftwidth=4                   " number of spaces when shift indenting
+set softtabstop=4                  " number of spaces in tab when editing
+set tabstop=4                      " number of visual spaces per tab
+set scrolloff=10
+set smartindent
+"set number                         " show line numbers
+set incsearch                      " search as characters are entered
+set hlsearch                       " highlight matches
+set smartcase
+"set linebreak
+set nobackup
+set noswapfile
+set noundofile
+
+
+"=======================================================================
+"  Mappings
+"=======================================================================
