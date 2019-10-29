@@ -26,7 +26,7 @@ set tabstop=2                      " number of visual spaces per tab
 set omnifunc=syntaxcomplete#Complete
 set scrolloff=999
 set smartindent
-set number                         " show line numbers
+set nonumber                       " don't show line numbers
 set cursorline                     " highlight current line
 set showmatch                      " highlight matching [{()}]
 set incsearch                      " search as characters are entered
