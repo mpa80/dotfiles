@@ -5,7 +5,7 @@
 set ruler
 set showmode
 set hidden
-syntax off
+syntax on
 
 set nocompatible
 set shiftwidth=4
