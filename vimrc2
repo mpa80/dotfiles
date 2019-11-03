@@ -2,23 +2,27 @@
 "  Main settings
 "=======================================================================
 
-"syntax on
+set ruler
+set showmode
+set hidden
+syntax off
 
-set expandtab                      " tab to spaces
-set shiftwidth=4                   " number of spaces when shift indenting
-set softtabstop=4                  " number of spaces in tab when editing
-set tabstop=4                      " number of visual spaces per tab
-set scrolloff=10
+set nocompatible
+set shiftwidth=4
+set softtabstop=4
+set tabstop=4
+set scrolloff=999
 set smartindent
-"set number                         " show line numbers
-set incsearch                      " search as characters are entered
-set hlsearch                       " highlight matches
+set nonumber
+"set cursorline
+set showmatch
+set incsearch
+set hlsearch
 set smartcase
-"set linebreak
+set linebreak
 set nobackup
 set noswapfile
 set noundofile
-
 
 "=======================================================================
 "  Mappings
