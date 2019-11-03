@@ -21,7 +21,6 @@ alias mc='mc -b'
 alias mkdir='mkdir -pv'
 alias mount='/usr/bin/sudo mount'
 alias umount='/usr/bin/sudo umount'
-alias fvim='vim -u ~/.vimrc.fancy'
 
 clrswp ()
 {
