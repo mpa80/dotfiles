@@ -5,6 +5,7 @@
 set ruler
 set showmode
 set hidden
+set laststatus=2
 syntax on
 
 set nocompatible
