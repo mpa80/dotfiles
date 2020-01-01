@@ -5,6 +5,7 @@
 set ruler
 set showmode
 set hidden
+set laststatus=2
 syntax on
 
 set nocompatible
@@ -27,3 +28,5 @@ set noundofile
 "=======================================================================
 "  Mappings
 "=======================================================================
+map <C-PageUp> :bp<CR>
+map <C-PageDown> :bn<CR>
