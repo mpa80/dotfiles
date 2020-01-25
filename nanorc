@@ -1,0 +1,5 @@
+set autoindent
+set nohelp
+set morespace
+#set constantshow
+set tabsize 4
