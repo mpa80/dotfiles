@@ -1,0 +1,10 @@
+set showmode
+set showmatch
+set ruler
+set shiftwidth=4
+set tabstop=4
+set verbose
+set leftright
+set iclower
+set searchincr
+set report=1
