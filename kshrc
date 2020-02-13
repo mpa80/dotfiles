@@ -22,7 +22,6 @@ fi
 alias ls='$LS -FHh'
 alias ll='ls -la'
 alias mkdir='mkdir -p'
-alias pkg_add='/usr/bin/doas /usr/sbin/pkg_add'
 
 _XTERM_TITLE='\[\033]0;\u@\h:\w\007\]'
 _PS1_CLEAR='\[\033[0m\]'
