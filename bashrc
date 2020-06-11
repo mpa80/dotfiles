@@ -116,7 +116,3 @@ if [ -f /etc/arch-release ]; then
 fi
 
 export PATH="$PATH:/home/mpa/.local/bin"
-
-if [ -d /snap/bin ]; then
-	export PATH="$PATH:/snap/bin"
-fi
