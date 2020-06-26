@@ -114,4 +114,6 @@ if [ -f /etc/arch-release ]; then
     export PATH='/home/mpa/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl'
 fi
 
-export PATH="$PATH:/home/mpa/.local/bin"
+if [ -d /home/mpa/.local/bin ]; then
+	export PATH='$PATH:/home/mpa/.local/bin'
+fi
