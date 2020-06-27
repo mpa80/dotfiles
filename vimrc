@@ -14,7 +14,7 @@ set tabstop=4
 set scrolloff=999
 set smartindent
 set nonumber
-"set cursorline
+set cursorline
 set showmatch
 set incsearch
 set hlsearch
