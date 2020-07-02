@@ -16,6 +16,7 @@ complete -cf sudo
 complete -cf man
 
 alias ls='ls -p --group-directories-first --time-style=+"%Y-%m-%d %H:%M" --color=auto -F'
+alias la='ls -pa --group-directories-first --time-style=+"%Y-%m-%d %H:%M" --color=auto -F'
 alias ll='ls -phla --group-directories-first --time-style=+"%Y-%m-%d %H:%M" --color=auto -F'
 alias mc='mc -b'
 alias mkdir='mkdir -pv'
