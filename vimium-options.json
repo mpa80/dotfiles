@@ -13,7 +13,7 @@
   "filterLinkHints": false,
   "waitForEnterForFilteredHints": true,
   "hideHud": false,
-  "keyMappings": "unmap t\nmap t Vomnibar.activateInNewTab",
+  "keyMappings": "unmap t\nmap t Vomnibar.activateInNewTab\nmap R reload hard",
   "linkHintCharacters": "sadfjklewcmpgh",
   "linkHintNumbers": "0123456789",
   "newTabUrl": "about:newtab",
