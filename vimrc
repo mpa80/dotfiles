@@ -11,7 +11,7 @@ set nocompatible
 set shiftwidth=4
 set softtabstop=4
 set tabstop=4
-set scrolloff=999
+set scrolloff=2
 set smartindent
 set nonumber
 set cursorline
