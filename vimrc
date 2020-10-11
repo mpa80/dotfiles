@@ -6,6 +6,7 @@ set ruler
 set showmode
 set hidden
 syntax on
+colorscheme elflord
 
 set nocompatible
 set shiftwidth=4
