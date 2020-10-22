@@ -3,7 +3,7 @@ XTerm*vt100.locale:          true
 XTerm*vt100.metaSendsEscape: true
 XTerm*vt100.saveLines:       4096
 XTerm*scrollbar:             false
-XTerm*foreground:            grey		
+XTerm*foreground:            grey
 XTerm*background:            grey5
 XTerm*font:                  -misc-fixed-bold-*-*-*-15-*-*-*-*-*-iso10646-1
 XTerm*boldFont:              -misc-fixed-bold-*-*-*-15-*-*-*-*-*-iso10646-1
