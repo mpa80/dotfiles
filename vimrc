@@ -6,6 +6,7 @@ set ruler
 set showmode
 set hidden
 syntax on
+filetype plugin on
 colorscheme elflord
 
 set nocompatible
