@@ -25,6 +25,7 @@ set linebreak
 set nobackup
 set noswapfile
 set noundofile
+set showcmd
 
 "=======================================================================
 " Move lines up and down
