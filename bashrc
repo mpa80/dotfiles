@@ -116,5 +116,5 @@ if [ -f /etc/arch-release ]; then
 fi
 
 if [ -d /home/mpa/.local/bin ]; then
-	export PATH="$PATH:/home/mpa/.local/bin"
+	export PATH="/home/mpa/.local/bin:$PATH"
 fi
